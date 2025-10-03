@@ -1,0 +1,43 @@
+import java.util.ArrayList;
+
+public class TokoMochi {
+    protected String kodeToko, namaToko, pemilik;
+    protected ArrayList<MochiBasah> daftarBasah = new ArrayList<>();
+    protected ArrayList<MochiKering> daftarKering = new ArrayList<>();
+
+    public TokoMochi(String kodeToko, String namaToko, String pemilik) {
+        this.kodeToko = kodeToko;
+        this.namaToko = namaToko;
+        this.pemilik = pemilik;
+    }
+
+    public void tambahBasah(MochiBasah m) { daftarBasah.add(m); }
+    public void tambahKering(MochiKering m) { daftarKering.add(m); }
+
+    public void tampilkanProduk() {
+        System.out.println("\n=== DATA TOKO MOCHI ===");
+        System.out.println("Kode Toko : " + kodeToko);
+        System.out.println("Nama Toko : " + namaToko);
+        System.out.println("Pemilik   : " + pemilik + "\n");
+
+        if (!daftarBasah.isEmpty()) {
+            System.out.println("Daftar Mochi Basah:");
+            System.out.printf("%-6s %-15s %-8s %-10s %-10s %-10s%n", "Kode", "Nama", "Harga", "Isian", "Ukuran", "Warna");
+            for (MochiBasah m : daftarBasah) {
+                System.out.printf("%-6s %-15s %-8d %-10s %-10s %-10s%n",
+                        m.getKode(), m.getNama(), m.getHarga(), m.getIsian(), m.getUkuran(), m.getWarna());
+            }
+            System.out.println();
+        }
+
+        if (!daftarKering.isEmpty()) {
+            System.out.println("Daftar Mochi Kering:");
+            System.out.printf("%-6s %-15s %-8s %-10s %-12s %-10s%n", "Kode", "Nama", "Harga", "Rasa", "DayaTahan", "Kemasan");
+            for (MochiKering m : daftarKering) {
+                System.out.printf("%-6s %-15s %-8d %-10s %-12s %-10s%n",
+                        m.getKode(), m.getNama(), m.getHarga(), m.getRasa(), m.getDayaTahan(), m.getKemasan());
+            }
+            System.out.println();
+        }
+    }
+}

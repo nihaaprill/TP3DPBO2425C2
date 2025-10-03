@@ -52,7 +52,7 @@ Keluar
 7. Program berjalan sampai user memilih keluar.
 
 ## Dokumentasi C++ ##
-![Deskripsi gambar](CPP/Dokumen/tp3cpp1.png)
+![Deskripsi gambar](CPP/Dokumentasi/tp3cpp1.png)
 
 
 

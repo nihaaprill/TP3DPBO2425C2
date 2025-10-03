@@ -54,6 +54,21 @@ Keluar
 ## Dokumentasi C++ ##
 ![Deskripsi gambar](CPP/Dokumentasi/tp3cpp1.png)
 
+![Deskripsi gambar](CPP/Dokumentasi/tp3cpp2.png)
+
+## Dokumentasi Python ##
+![Deskripsi gambar](Python/Dokumentasi/tepe3py1.png)
+
+![Deskripsi gambar](Python/Dokumentasi/tepe3py2.png)
+
+## Dokumentasi Java ##
+![Deskripsi gambar](Java/Dokum/tepe3java1.png)
+
+![Deskripsi gambar](Java/Dokum/tepe3java2.png)
+
+
+
+
 
 
 

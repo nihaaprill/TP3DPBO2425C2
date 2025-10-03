@@ -11,22 +11,18 @@ Saya Niha April Miani dengan NIM 2402567 mengerjakan Tugas Praktikum 3 dalam mat
 - ProdukMochi
 Atribut: kode, nama, harga
 Methods: konstruktor, getter/setter
-
 - MochiBasah (extends ProdukMochi)
-Atribut: isian, ukuran, warna.
-Methods: konstruktor, cetak data mochi basah.
-
+Atribut: isian, ukuran, warna
+Methods: konstruktor, cetak data mochi basah
 - MochiKering (extends ProdukMochi)
-Atribut: rasa, daya_tahan, kemasan.
-Methods: konstruktor, cetak data mochi kering.
-
+Atribut: rasa, daya_tahan, kemasan
+Methods: konstruktor, cetak data mochi kering
 - TokoMochi
-Atribut: kode_toko, nama_toko, pemilik, mochi_basah[], mochi_kering[].
-Methods: tambah_basah(), tambah_kering(), laporan().
-
+Atribut: kode_toko, nama_toko, pemilik, mochi_basah[], mochi_kering[]
+Methods: tambah_basah(), tambah_kering(), laporan()
 - CabangToko (extends TokoMochi)
-Atribut: lokasi, tahun, jenis.
-Methods: override laporan() (menampilkan info cabang + produk).
+Atribut: lokasi, tahun, jenis
+Methods: override laporan() (menampilkan info cabang + produk)
 
 ## Penjelasan Desain Program ##
 - Inheritance (pewarisan)

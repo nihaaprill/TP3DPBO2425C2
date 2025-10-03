@@ -8,21 +8,20 @@ Saya Niha April Miani dengan NIM 2402567 mengerjakan Tugas Praktikum 3 dalam mat
 ![Deskripsi gambar](desaintp3.png)
 
 ## Atribut & Metode ##
-ProdukMochi
-Atribut: kode, nama, harga
+- ProdukMochi
+Atribut: kode, nama, harga; 
 Methods: konstruktor, getter/setter
-
-MochiBasah (extends ProdukMochi)
-Atribut: isian, ukuran, warna
+- MochiBasah (extends ProdukMochi)
+Atribut: isian, ukuran, warna; 
 Methods: konstruktor, cetak data mochi basah
 - MochiKering (extends ProdukMochi)
-Atribut: rasa, daya_tahan, kemasan
+Atribut: rasa, daya_tahan, kemasan; 
 Methods: konstruktor, cetak data mochi kering
 - TokoMochi
-Atribut: kode_toko, nama_toko, pemilik, mochi_basah[], mochi_kering[]
+Atribut: kode_toko, nama_toko, pemilik, mochi_basah[], mochi_kering[]; 
 Methods: tambah_basah(), tambah_kering(), laporan()
 - CabangToko (extends TokoMochi)
-Atribut: lokasi, tahun, jenis
+Atribut: lokasi, tahun, jenis; 
 Methods: override laporan() (menampilkan info cabang + produk)
 
 ## Penjelasan Desain Program ##

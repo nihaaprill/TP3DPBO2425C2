@@ -8,10 +8,11 @@ Saya Niha April Miani dengan NIM 2402567 mengerjakan Tugas Praktikum 3 dalam mat
 ![Deskripsi gambar](desaintp3.png)
 
 ## Atribut & Metode ##
-- ProdukMochi
+ProdukMochi
 Atribut: kode, nama, harga
 Methods: konstruktor, getter/setter
-- MochiBasah (extends ProdukMochi)
+
+MochiBasah (extends ProdukMochi)
 Atribut: isian, ukuran, warna
 Methods: konstruktor, cetak data mochi basah
 - MochiKering (extends ProdukMochi)
